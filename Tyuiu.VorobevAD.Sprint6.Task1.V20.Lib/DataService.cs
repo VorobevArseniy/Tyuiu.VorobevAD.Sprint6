@@ -20,7 +20,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint6.ISprint6
 				continue;
 			}
 
-			mass[k] = Math.Round(2 * x - 3 / (Math.Cos(x) - 2 * x), 2);
+			mass[k] = Math.Round(2 * x - 3 / (Math.Cos(x) - 2 * x) + 5 * x - Math.Sin(x), 2);
 			k++;
 		}
 		return mass;
