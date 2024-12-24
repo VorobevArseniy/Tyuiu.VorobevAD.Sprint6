@@ -14,11 +14,11 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint6.ISprint6
 
 		for (int x = startValue; x <= stopValue; x++)
 		{
-			if (x + 1 == 0)
-			{
-				mass[k] = 0;
-				continue;
-			}
+			// if ((x + 1) == 0)
+			// {
+			// 	mass[k] = 0;
+			// 	continue;
+			// }
 
 			mass[k] = Math.Round(Math.Cos(x) / (x + 1) - Math.Cos(x) * 1.3 + 3 * x, 2);
 			k++;
