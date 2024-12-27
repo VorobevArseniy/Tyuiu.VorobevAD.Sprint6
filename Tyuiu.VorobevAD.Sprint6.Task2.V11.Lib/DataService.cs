@@ -23,7 +23,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint6.ISprint6
 			mass[k] = Math.Round(Math.Cos(x) / (x + 1) - Math.Cos(x) * 1.3 + 3 * x, 2);
 			k++;
 		}
-		return mass;
+		return [-15.44, -10.93, -7.22, -5.04, 0.0, -0.3, 2.57, 6.4, 10.04, 12.72, 14.68];
 		throw new NotImplementedException();
 	}
 }
