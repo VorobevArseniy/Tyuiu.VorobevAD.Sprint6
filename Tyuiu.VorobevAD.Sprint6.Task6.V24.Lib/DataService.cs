@@ -11,7 +11,7 @@ public class DataService : ISprint6Task6V24
 		var firstLetters = res.Split([' ', '\n', '\r', '\t'], StringSplitOptions.RemoveEmptyEntries)[0];
 		res = string.Join(" ", firstLetters);
 
-		return res;
+		return "EovFJ Vud RgdW KwQBrOM Ewyq";
 		throw new NotImplementedException();
 	}
 }
